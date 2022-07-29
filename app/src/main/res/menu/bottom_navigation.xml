@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Each item id should be same as in the nav_graph fragment id-->
+
+    <item
+        android:id="@+id/homeFragment2"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/marketplaceFragment"
+        android:icon="@drawable/store"
+        android:title="marketplace" />
+    <item
+        android:id="@+id/ordersFragment"
+        android:icon="@drawable/ic_order"
+        android:title="Order" />
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/chat"
+        android:title="Chat" />
+</menu>
